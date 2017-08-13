@@ -9,5 +9,14 @@
   <script type="text/javascript" src="main.js" ></script>
 </head>
 <body>
+ <!-- Set up user entry form and initialize output table id-->
+  <h3>Savings Calculator</h3>
+  <p> Starting amount: <input type="text" id="amount" /> </p>
+  <p> Rate of Return (percent): <input type="text" id="rate"/> </p>
+  <p> Years: <input type="text" id="years"/> </p>
+  <p>  <input type="button" value="Calculate" onclick="calculate()" />
+       <input type="button" value="Reset" onclick="reset()" />
+  </p>
+  <p id="results_table"> </p>
 </body>
 </html>
