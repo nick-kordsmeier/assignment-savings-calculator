@@ -31,6 +31,10 @@ function calculate() {
 }
 
 // reset() function to clear our the HTML contents associated with the "results_table" id.
+// Update: Clear out input boxes.
 function reset() {
     document.getElementById("results_table").innerHTML = "";
+    document.getElementById("amount").value = "";
+    document.getElementById("rate").value = "";
+    document.getElementById("years").value = "";
 }
